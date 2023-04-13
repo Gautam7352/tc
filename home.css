@@ -21,16 +21,16 @@
   flex-direction: column
 }
 .header-container-header {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  /* [disabled]padding: var(--dl-space-space-doubleunit); */
-  z-index: 100;
-  position: relative;
-  max-width: 1110px;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between
+	flex: 0 0 auto;
+	width: 100%;
+	display: flex;
+	padding: var(--dl-space-space-doubleunit);
+	z-index: 100;
+	position: relative;
+	max-width: 1110px;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between
 }
 .header-container-logo {
   display: flex;
@@ -1742,8 +1742,10 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
-  position: relative;
+	background: #151414;
+	position: relative;
+	width: 100%;
+	text-align: center;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
@@ -1896,4 +1898,41 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #d62976;
+  color: white;
+}
+
+.fa-telegram {
+  background: #430297;
+  color: white;
+}
+.fa-google-plus {
+  background: red;
+  color: white;
 }
