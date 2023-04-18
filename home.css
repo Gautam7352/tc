@@ -2150,11 +2150,10 @@ ul {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 80px;
+  width: 70px;
   text-align: center;
-  text-decoration: none;
   margin: 5px 2px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -2177,8 +2176,8 @@ ul {
 }
 
 .fa-telegram {
-  background: #430297;
-  color: #fff
+  background: #0088cc;
+  color: #fff;
 }
 
 .fa-google-plus {

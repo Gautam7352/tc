@@ -8,43 +8,36 @@
 <meta property="twitter:card" content="summary_large_image" />
 <style data-tag="reset-style-sheet">
 html {
-    line-height: 1.15;
+	line-height: 1.15;
 }
 body {
-    margin: 0;
+	margin: 0;
 }
 * {
-    /* [disabled]box-sizing: border-box;
+	/* [disabled]box-sizing: border-box;
 */
-    border-color: #FFFFFF;
-    border-width: 0;
-    height: auto;
-    /* [disabled]top: 0px;
-*/
+	border-color: #FFFFFF;
+	height: auto;
+	border-width: 0px;
 }
 p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    /* [disabled]top: 0px;
-*/
-    left: 0px;
+	margin: 0;
 }
 button {
-    background-color: transparent;
+	background-color: transparent;
 }
 button, input, optgroup, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
 }
 button, select {
-    text-transform: none;
+	text-transform: none;
 }
 button, [type="button"], [type="reset"], [type="submit"] {
-    -webkit-appearance: button;
-    appearance: initial;
+	-webkit-appearance: button;
+	appearance: initial;
 }
 button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
 border-style: none;
@@ -54,50 +47,55 @@ button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type=
 outline: 1px dotted ButtonText;
 }
 a {
-    color: inherit;
-    text-decoration: inherit;
+	color: inherit;
+	text-decoration: inherit;
 }
 input {
-    padding: 2px 4px;
+	padding: 2px 4px;
 }
 img {
-    /* [disabled]display: block;
+	/* [disabled]display: block;
 */
-    width: 100%;
+	width: 100px;
 }
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 .FAQ {
-    color: #1504E3;
-    font-size: xx-large;
-    text-align: center;
+	color: #1504E3;
+	font-size: xx-large;
+	text-align: center;
 }
 .goal {
-    width: 50%;
+	width: 50%;
 }
 .footercontacts {
-    color: #FFFFFF;
+	color: #FFFFFF;
+}
+.iframe {
+	height: 500px;
+}
+.count {
 }
 </style>
 <style data-tag="default-style-sheet">
 html {
-    font-family: Inter;
-    font-size: 16px;
+	font-family: Inter;
+	font-size: 16px;
 }
 body {
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    text-transform: none;
-    letter-spacing: normal;
-    line-height: 1.55;
-    color: var(--dl-color-gray-black);
-    background-color: var(--dl-color-gray-white);
-    border-width: 100%;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: normal;
+	line-height: 1.55;
+	color: var(--dl-color-gray-black);
+	background-color: var(--dl-color-gray-white);
+	border-width: 100%;
 }
 .footer {
-    background-color: #000000;
+	background-color: #000000;
 }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -122,11 +120,7 @@ body {
     <div data-role="Header" class="header-container-header-container">
       <header class="header-container-header">
         <div class="header-container-logo"> <img alt="image" src="public/playground_assets/tclogotop.jpg" class="header-container-image" /> </div>
-        <div class="header-container-menu"> <span class="header-container-text"><span>Home</span></span> <span class="header-container-text01"><span>About</span></span> <span class="header-container-text02"><span>Guide</span></span> <span class="header-container-text03"><span>Updates</span></span> <span class="header-container-text04"><span>FAQ</span></span> <span class="header-container-text05"> <span>Contact Us</span> </span>
-          <svg viewBox="0 0 1024 1024" class="header-container-icon">
-            <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-          </svg>
-        </div>
+        <div class="header-container-menu"> <span class="header-container-text"><span>Home</span></span> <span class="header-container-text01"><span>About</span></span> <span class="header-container-text02"><span>Guide</span></span> <span class="header-container-text03"><span>Updates</span></span> <span class="header-container-text04"><span>FAQ</span></span> <span class="header-container-text05"> <span>Contact Us</span> </span> </div>
         <div class="header-container-container">
           <div class="store-banner-store-banner"> <img alt="login" src="public/playground_assets/download-logo-png-image-77292-300x300-200h.png"
                 class="store-banner-image" /> <img alt="download" src="public/playground_assets/login-200h.png" loading="lazy"
@@ -190,7 +184,7 @@ body {
       <div class="main-blur-background"></div>
       <img alt="image" src="/playground_assets/turquoise-circle.svg" class="main-turquoise-cirble" /> <img alt="image" src="public/playground_assets/turquoise-circle.svg" class="main-purple-circle" /> <img alt="image" src="public/playground_assets/left.svg" class="main-left" /> <img alt="image" src="public/playground_assets/right.svg" class="main-right" />
       <div class="main-hero">
-        <div class="main-container">
+        <div class="main-container"> <b style="font-size:50px">Welcome to</b>
           <h1 class="main-text"> <span class="main-text1">BIGWIZARD</span> <br class="main-text2" />
             <span class="main-text3">TRADE</span> <br class="main-text4" />
           </h1>
@@ -199,7 +193,8 @@ body {
             <button type="button" class="primary-button-register-here MediumLabel button"> <span>Register here</span> </button>
           </div>
         </div>
-        <img alt="image" src="public/playground_assets/iphonex-1500h.png" class="main-image" /> </div>
+        <iframe src="https://www.9987up.cc/#/register?r_code=o4dnV349340" class="iframe"></iframe>
+      </div>
     </div>
     <div class="home-features">
       <h2 class="home-text06">TC Lottery</h2>
@@ -250,7 +245,8 @@ body {
                 d="M841.143 548.571c0 19.429-7.429 38.286-21.143 52l-372 372c-13.714 13.143-32.571 21.143-52 21.143s-37.714-8-51.429-21.143l-42.857-42.857c-13.714-13.714-21.714-32.571-21.714-52s8-38.286 21.714-52l167.429-167.429h-402.286c-41.143 0-66.857-34.286-66.857-73.143v-73.143c0-38.857 25.714-73.143 66.857-73.143h402.286l-167.429-168c-13.714-13.143-21.714-32-21.714-51.429s8-38.286 21.714-51.429l42.857-42.857c13.714-13.714 32-21.714 51.429-21.714s38.286 8 52 21.714l372 372c13.714 13.143 21.143 32 21.143 51.429z"> </path>
           </svg>
         </div>
-        <img alt="image" src="public/playground_assets/iphonex-1500h.png" class="home-image7" /> </div>
+        <iframe src="https://www.youtube.com/embed/UMp0cqkHido?playlist=UMp0cqkHido&loop=1&autoplay=1&controls=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" class="iframe"></iframe>
+      </div>
     </div>
     <div class="home-container1">
       <h1 class="home-text">OUR GOALS</h1>
@@ -262,9 +258,7 @@ body {
       </span> <span class="home-text04"> <span class="home-text05">Goals 02</span> <br />
       <span> Create a network of your own to lower the risk of loss and earn a
       handsome commission. </span> </span> </div>
-    <div class="image-wrapper"> 
-		<img src="public/playground_assets/MarketAnalysis.jpg" class="desktop-image" alt="Image 1"> <img src="public/playground_assets/MarketAnalysis2.jpg" class="mobile-image" alt="Image 2"> 
-	</div>
+    <div class="image-wrapper"> <img src="public/playground_assets/MarketAnalysis.jpg" class="desktop-image" alt="Image 1"> <img src="public/playground_assets/MarketAnalysis2.jpg" class="mobile-image" alt="Image 2"> </div>
     <div class="home-testimonials">
       <div class="home-container09">
         <div class="home-container10"> <img alt="image" src="public/playground_assets/quote-mark.svg" class="home-image8" />
@@ -344,21 +338,10 @@ body {
     <footer class="footer-section">
       <div class="container">
         <div class="footer-cta pt-5 pb-5">
-          <div class="row">
-            <div class="col-md-4 mb-30 col-xl-6 col-lg-3">
-              <div class="single-cta"> <i class="fas fa-phone" style=" transform: scaleX(-1);-moz-transform: scaleX(-1);-webkit-transform: scaleX(-1);-ms-transform: scaleX(-1);"></i>
-                <div class="cta-text">
-                  <h4>Call us</h4>
-                  <span>XXXXXXXXXX</span> </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-30 offset-xl-1 col-xl-5 col-lg-3 offset-lg-6">
-              <div class="single-cta"> <i class="far fa-envelope-open"></i>
-                <div class="cta-text">
-                  <h4>Mail us</h4>
-                  <span>mail@info.com</span> </div>
-              </div>
-            </div>
+          <div class="row" style="align-items: center; align-items: center">
+            <player class="count"><img src="public/playground_assets/user.png"/> 121912 Players</player>
+            <total class="count"><img src="public/playground_assets/community.png"/> 6788716217 Total of betting</total>
+            <online class="count"><img src="public/playground_assets/user.png"/> 11512 online</online>
           </div>
         </div>
         <div class="footer-content pt-5 pb-5">
@@ -371,7 +354,7 @@ body {
                 </div>
               </div>
             </div>
-<div class="col-lg-4">
+            <div class="col-lg-4">
               <h1 class="footercontacts">Contacts</h1>
               <ul>
                 <li><a href="#" class="fa">@SahaniTC</a></li>
@@ -383,13 +366,9 @@ body {
             <div class="row-xl-4 row-lg-4 row-md-6 mb-30">
               <div class="footer-widget-heading">
                 <h3>Useful Links</h3>
-              </div> 
+              </div>
               <ul>
-                <a href="#" class="fa fa-facebook"></a>
-				<a href="#" class="fa fa-google-plus"></a>
-				<a href="#" class="fa fa-telegram"></a>
-				<a href="#" class="fa fa-instagram"></a>
-				<a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-google-plus"></a> <a href="#" class="fa fa-telegram"></a> <a href="#" class="fa fa-instagram"></a> <a href="#" class="fa fa-youtube"></a>
               </ul>
             </div>
           </div>
