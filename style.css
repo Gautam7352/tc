@@ -402,20 +402,12 @@
   content: "\f059"
 }
 
-.fa-info-circle:before {
-  content: "\f05a"
-}
-
 .fa-plus:before {
   content: "\f067"
 }
 
 .fa-comment:before {
   content: "\f075"
-}
-
-.fa-phone:before {
-  content: "\f095"
 }
 
 .fa-twitter:before {
@@ -439,10 +431,6 @@
   content: "\f0d6"
 }
 
-.fa-envelope:before {
-  content: "\f0e0"
-}
-
 .fa-user-md:before {
   content: "\f0f0"
 }
@@ -451,7 +439,6 @@
   content: "\f108"
 }
 
-.fa-mobile-phone:before,
 .fa-mobile:before {
   content: "\f10b"
 }
@@ -474,10 +461,6 @@
 
 .fa-question:before {
   content: "\f128"
-}
-
-.fa-info:before {
-  content: "\f129"
 }
 
 .fa-maxcdn:before {
@@ -535,10 +518,6 @@
 .fa-fa:before,
 .fa-font-awesome:before {
   content: "\f2b4"
-}
-
-.fa-envelope-open:before {
-  content: "\f2b6"
 }
 
 .fa-user-circle:before {
