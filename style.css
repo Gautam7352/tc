@@ -64,40 +64,40 @@
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
-  --dl-space-space-oneandhalfunits: 24px;
+  --dl-space-space-oneandhalfunits: 24px
 }
 
 .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   font-family: Inter;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-white)
 }
 
 .input {
   color: var(--dl-color-gray-black);
   cursor: auto;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   font-family: Inter;
   border-color: var(--dl-color-gray-900);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-white)
 }
 
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
-  padding: 0.5rem;
+  padding: .5rem;
   font-family: Inter;
   border-color: var(--dl-color-gray-900);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-white)
 }
 
 .Body2 {
@@ -105,7 +105,7 @@
   font-family: Inter;
   font-weight: 400;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Lead1 {
@@ -114,7 +114,7 @@
   font-weight: 400;
   line-height: 1.77;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Headline6 {
@@ -122,7 +122,7 @@
   font-family: Inter;
   font-weight: 500;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Body1 {
@@ -131,7 +131,7 @@
   font-weight: 400;
   line-height: 1.55;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Lead2 {
@@ -140,7 +140,7 @@
   font-weight: 500;
   line-height: 1.77;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Headline3 {
@@ -148,7 +148,7 @@
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Headline2 {
@@ -156,7 +156,7 @@
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Headline5 {
@@ -164,7 +164,7 @@
   font-family: Inter;
   font-weight: 600;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Subtitle2 {
@@ -172,7 +172,7 @@
   font-family: Inter;
   font-weight: 500;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .MediumLabel {
@@ -180,7 +180,7 @@
   font-family: Inter;
   font-weight: 600;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Headline1 {
@@ -188,7 +188,7 @@
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Subtitle1 {
@@ -196,7 +196,7 @@
   font-family: Inter;
   font-weight: 700;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Headline4 {
@@ -204,7 +204,7 @@
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .Heading {
@@ -213,36 +213,35 @@
   font-weight: 700;
   line-height: 1.15;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .link {
   font-style: normal;
-  transition: 0.3s;
+  transition: .3s;
   font-weight: 500;
   line-height: 24px;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .link:hover {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, .6)
 }
 
 .Question {
-	gap: var(--dl-space-space-unit);
-	width: 100%;
-	/* [disabled]display: flex; */
-	padding: var(--dl-space-space-oneunit);
-	max-width: 640px;
-	align-items: flex-start;
-	border-color: #dbdbdb;
-	flex-direction: column;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  padding: var(--dl-space-space-oneunit);
+  max-width: 640px;
+  align-items: flex-start;
+  border-color: #dbdbdb;
+  flex-direction: column;
+  border-right-width: 1px;
+  border-bottom-width: 1px
 }
 
 .quote {
-  display: none;
+  display: none
 }
 
 .Content {
@@ -251,290 +250,276 @@
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;
-  text-decoration: none;
+  text-decoration: none
 }
 
 @font-face {
   font-family: FontAwesome;
   src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
-      format("embedded-opentype"),
-    url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
-    url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
-    url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
-    url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
-      format("svg");
+  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
 
 .fa {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	width: 0%;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 0%
 }
 
 .fa-lg {
   font-size: 1.33333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
+  line-height: .75em;
+  vertical-align: -15%
 }
 
 .fa-2x {
-  font-size: 2em;
+  font-size: 2em
 }
 
 .fa-3x {
-  font-size: 3em;
+  font-size: 3em
 }
 
 .fa-4x {
-  font-size: 4em;
+  font-size: 4em
 }
 
 .fa-5x {
-  font-size: 5em;
+  font-size: 5em
 }
 
 .fa-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
-  list-style-type: none;
+  list-style-type: none
 }
 
-.fa-ul > li {
-  position: relative;
+.fa-ul>li {
+  position: relative
 }
 
 .fa-li {
   position: absolute;
   left: -2.14285714em;
   width: 2.14285714em;
-  top: 0.14285714em;
-  text-align: center;
+  top: .14285714em;
+  text-align: center
 }
 
 .fa-li.fa-lg {
-  left: -1.85714286em;
+  left: -1.85714286em
 }
 
 .fa-border {
-  padding: 0.2em 0.25em 0.15em;
-  border: solid 0.08em #eee;
-  border-radius: 0.1em;
+  padding: .2em .25em .15em;
+  border: solid .08em #eee;
+  border-radius: .1em
 }
 
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0);
-    transform: rotate(0);
+    transform: rotate(0)
   }
 
   100% {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
+    transform: rotate(359deg)
   }
 }
 
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0);
-    transform: rotate(0);
+    transform: rotate(0)
   }
 
   100% {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
+    transform: rotate(359deg)
   }
 }
 
 .fa-user:before {
-  content: "\f007";
+  content: "\f007"
 }
 
 .fa-close:before {
-  content: "\f00d";
+  content: "\f00d"
 }
 
 .fa-home:before {
-  content: "\f015";
+  content: "\f015"
 }
 
 .fa-download:before {
-  content: "\f019";
+  content: "\f019"
 }
 
 .fa-tag:before {
-  content: "\f02b";
+  content: "\f02b"
 }
 
 .fa-font:before {
-  content: "\f031";
+  content: "\f031"
 }
 
 .fa-text-height:before {
-  content: "\f034";
+  content: "\f034"
 }
 
 .fa-text-width:before {
-  content: "\f035";
+  content: "\f035"
 }
 
 .fa-align-left:before {
-  content: "\f036";
+  content: "\f036"
 }
 
 .fa-align-center:before {
-  content: "\f037";
+  content: "\f037"
 }
 
 .fa-align-right:before {
-  content: "\f038";
+  content: "\f038"
 }
 
 .fa-image:before,
 .fa-photo:before {
-  content: "\f03e";
+  content: "\f03e"
 }
 
 .fa-plus-circle:before {
-  content: "\f055";
+  content: "\f055"
 }
 
 .fa-question-circle:before {
-  content: "\f059";
+  content: "\f059"
 }
 
 .fa-plus:before {
-  content: "\f067";
-}
-
-.fa-comment:before {
-  content: "\f075";
+  content: "\f067"
 }
 
 .fa-twitter:before {
-  content: "\f099";
+  content: "\f099"
 }
 
 .fa-facebook-f:before,
 .fa-facebook:before {
-  content: "\f09a";
+  content: "\f09a"
 }
 
 .fa-link:before {
-  content: "\f0c1";
+  content: "\f0c1"
 }
 
 .fa-google-plus:before {
-  content: "\f0d5";
+  content: "\f0d5"
 }
 
 .fa-money:before {
-  content: "\f0d6";
-}
-
-.fa-user-md:before {
-  content: "\f0f0";
+  content: "\f0d6"
 }
 
 .fa-desktop:before {
-  content: "\f108";
+  content: "\f108"
 }
 
 .fa-mobile:before {
-  content: "\f10b";
+  content: "\f10b"
 }
 
 .fa-quote-left:before {
-  content: "\f10d";
+  content: "\f10d"
 }
 
 .fa-quote-right:before {
-  content: "\f10e";
+  content: "\f10e"
 }
 
 .fa-circle:before {
-  content: "\f111";
+  content: "\f111"
 }
 
 .fa-code:before {
-  content: "\f121";
+  content: "\f121"
 }
 
 .fa-question:before {
-  content: "\f128";
+  content: "\f128"
 }
 
 .fa-maxcdn:before {
-  content: "\f136";
+  content: "\f136"
 }
 
 .fa-html5:before {
-  content: "\f13b";
+  content: "\f13b"
 }
 
 .fa-css3:before {
-  content: "\f13c";
+  content: "\f13c"
 }
 
 .fa-youtube:before {
-  content: "\f167";
+  content: "\f167"
 }
 
 .fa-instagram:before {
-  content: "\f16d";
+  content: "\f16d"
 }
 
 .fa-android:before {
-  content: "\f17b";
+  content: "\f17b"
 }
 
 .fa-dribbble:before {
-  content: "\f17d";
+  content: "\f17d"
 }
 
 .fa-google:before {
-  content: "\f1a0";
+  content: "\f1a0"
 }
 
 .fa-header:before {
-  content: "\f1dc";
+  content: "\f1dc"
 }
 
 .fa-copyright:before {
-  content: "\f1f9";
+  content: "\f1f9"
 }
 
 .fa-user-plus:before {
-  content: "\f234";
+  content: "\f234"
 }
 
 .fa-500px:before {
-  content: "\f26e";
+  content: "\f26e"
 }
 
 .fa-google-plus-circle:before {
-  content: "\f2b3";
+  content: "\f2b3"
 }
 
 .fa-fa:before,
 .fa-font-awesome:before {
-  content: "\f2b4";
+  content: "\f2b4"
 }
 
 .fa-user-circle:before {
-  content: "\f2bd";
+  content: "\f2bd"
 }
 
 .fa-telegram:before {
-  content: "\f2c6";
+  content: "\f2c6"
 }
 
 .fa-s15:before {
-  content: "\f2cd";
+  content: "\f2cd"
 }
