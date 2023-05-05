@@ -65,7 +65,6 @@
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px
-  
 }
 
 .button {
@@ -229,18 +228,6 @@
   color: rgba(0, 0, 0, .6)
 }
 
-.Question {
-  gap: var(--dl-space-space-unit);
-  width: 100%;
-  padding: var(--dl-space-space-oneunit);
-  max-width: 640px;
-  align-items: flex-start;
-  border-color: #dbdbdb;
-  flex-direction: column;
-  border-right-width: 1px;
-  border-bottom-width: 1px
-}
-
 .quote {
   display: none
 }
@@ -399,10 +386,6 @@
   content: "\f055"
 }
 
-.fa-question-circle:before {
-  content: "\f059"
-}
-
 .fa-plus:before {
   content: "\f067"
 }
@@ -450,10 +433,6 @@
 
 .fa-code:before {
   content: "\f121"
-}
-
-.fa-question:before {
-  content: "\f128"
 }
 
 .fa-maxcdn:before {

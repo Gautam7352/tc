@@ -1,20 +1,21 @@
-.float{
-	position:fixed;
-	height:70px; 
-  width:70px; 
-	bottom:50px;
-	right:50px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	z-index: 1000;
+.float {
+  position: fixed;
+  height: 70px;
+  width: 70px;
+  bottom: 50px;
+  right: 50px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1000
 }
 
-.my-float{
-	margin: 5px 2px; /* dont find any relavtive changes after edit it, so i let it be */
+.my-float {
+  margin: 5px 2px
 }
+
 .store-banner-store-banner {
   display: flex;
   align-items: flex-start;
@@ -1219,12 +1220,9 @@
   height: 1102px;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding: var(--dl-space-space-sixunits) var(--dl-space-space-oneandhalfunits) 44px;
   border-radius: 16px;
-  padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
-  padding-bottom: 44px;
   background-color: #f3f5fa
 }
 
@@ -1277,25 +1275,11 @@
   font-weight: 500
 }
 
-.home-description {
-  font-family: Poppins;
-  line-height: 24px
-}
-
 .home-title1 {
   font-size: 18px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500
-}
-
-.home-description1 {
-  font-family: Poppins;
-  line-height: 24px
-}
-
-.home-question2 {
-  border-bottom-width: 0
 }
 
 .home-title2 {
@@ -1305,20 +1289,11 @@
   font-weight: 500
 }
 
-.home-description2 {
-  font-family: Poppins;
-  line-height: 24px
-}
-
 .home-column1 {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column
-}
-
-.home-question3 {
-  border-right-width: 0
 }
 
 .home-title3 {
@@ -1328,15 +1303,6 @@
   font-weight: 500
 }
 
-.home-description3 {
-  font-family: Poppins;
-  line-height: 24px
-}
-
-.home-question4 {
-  border-right-width: 0
-}
-
 .home-title4 {
   font-size: 18px;
   font-style: normal;
@@ -1344,26 +1310,11 @@
   font-weight: 500
 }
 
-.home-description4 {
-  font-family: Poppins;
-  line-height: 24px
-}
-
-.home-question5 {
-  border-right-width: 0;
-  border-bottom-width: 0
-}
-
 .home-title5 {
   font-size: 18px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500
-}
-
-.home-description5 {
-  font-family: Poppins;
-  line-height: 24px
 }
 
 .home-text3 {
@@ -1581,64 +1532,11 @@
     justify-content: space-between
   }
 
-  .home-question {
-    padding: var(--dl-space-space-unit);
-    position: relative;
-    max-width: auto;
-    align-self: center;
-    align-items: center;
-    justify-content: flex-start
-  }
-
-  .home-description {
-    width: auto;
-    height: auto;
-    font-family: Poppins;
-    line-height: 24px
-  }
-
-  .home-question1 {
-    padding: var(--dl-space-space-unit);
-    align-self: center;
-    align-items: center;
-    justify-content: flex-start
-  }
-
-  .home-question2 {
-    padding: var(--dl-space-space-unit);
-    max-width: auto;
-    align-self: center;
-    align-items: flex-start
-  }
-
   .home-column1 {
     width: 50%;
     align-self: center;
     align-items: center;
     justify-content: space-between
-  }
-
-  .home-question3 {
-    padding: var(--dl-space-space-unit);
-    flex-wrap: wrap;
-    max-width: auto;
-    align-self: center;
-    align-items: center;
-    justify-content: flex-start
-  }
-
-  .home-question4 {
-    padding: var(--dl-space-space-unit);
-    align-self: center;
-    align-items: center;
-    justify-content: flex-start
-  }
-
-  .home-question5 {
-    padding: var(--dl-space-space-unit);
-    max-width: auto;
-    align-items: center;
-    justify-content: flex-start
   }
 
   .home-text3 {
@@ -2163,6 +2061,6 @@ ul {
   color: #fff
 }
 
-.accordion-item a{
-  font-weight: 600;
+.accordion-item h4 {
+  font-weight: 600
 }
