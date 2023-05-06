@@ -265,22 +265,6 @@
   vertical-align: -15%
 }
 
-.fa-2x {
-  font-size: 2em
-}
-
-.fa-3x {
-  font-size: 3em
-}
-
-.fa-4x {
-  font-size: 4em
-}
-
-.fa-5x {
-  font-size: 5em
-}
-
 .fa-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
@@ -335,10 +319,6 @@
 
 .fa-user:before {
   content: "\f007"
-}
-
-.fa-close:before {
-  content: "\f00d"
 }
 
 .fa-home:before {
@@ -459,16 +439,8 @@
   content: "\f17b"
 }
 
-.fa-dribbble:before {
-  content: "\f17d"
-}
-
 .fa-google:before {
   content: "\f1a0"
-}
-
-.fa-header:before {
-  content: "\f1dc"
 }
 
 .fa-copyright:before {
