@@ -720,6 +720,8 @@
   flex-direction: column
 }
 
+
+
 .home-get-started {
   width: 100%;
   display: flex;
@@ -748,12 +750,13 @@
 }
 
 .home-heading1 {
-  color: #c1fffc;
-  font-size: 64px;
-  font-style: normal;
-  text-align: center;
-  font-family: Poppins;
-  font-weight: 600
+    color: #c1fffc;
+    font-size: 64px;
+    font-style: normal;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    width: inherit;
 }
 
 .home-hero-buttons {
@@ -1320,6 +1323,18 @@
     font-size: 50px;
     text-align: center
   }
+
+.home-get-started {
+    width: 100%;
+    display: block;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+    background-color: #375ee0
+    }
+
+.home-hero-buttons{
+      display: block;
+    }
 }
 
 @media (max-width:479px) {
