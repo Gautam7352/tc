@@ -829,7 +829,7 @@
 
 .home-faq {
   width: 100%;
-  height: 1102px;
+  height: 1132px;
   display: flex;
   align-items: center;
   padding: var(--dl-space-space-sixunits) var(--dl-space-space-oneandhalfunits) 44px;
@@ -1323,16 +1323,24 @@
     font-size: 50px;
     text-align: center
   }
-
+.home-column1{
+  display: none;
+}
 .home-get-started {
     width: 100%;
     display: block;
+    block-size: 750px;
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-threeunits);
     background-color: #375ee0
     }
 
 .home-hero-buttons{
+      display: block;
+      width: fit-content;
+    }
+
+    .home-rows{
       display: block;
     }
 }
